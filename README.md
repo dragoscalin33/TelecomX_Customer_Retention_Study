@@ -21,37 +21,7 @@ To carry out the analysis, I used the following Python libraries:
 - `requests` – for retrieving data from external sources.  
 - `seaborn` and `matplotlib.pyplot` – for creating clear and visually engaging graphs and charts.
 
-## ▶️ How to Run the Project
-
-If you’d like to explore the analysis on your own machine, follow these steps:
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-   cd YOUR_REPOSITORY
-
-(Replace YOUR_USERNAME and YOUR_REPOSITORY with your actual GitHub username and repo name.)
-	2.	(Optional) Create and activate a virtual environment:
-
-python -m venv venv
-## On Windows:
-.\venv\Scripts\activate
-## On macOS/Linux:
-source venv/bin/activate
-
-
-	3.	Install dependencies:
-
-pip install pandas numpy requests seaborn matplotlib
-
-
-	4.	Open the notebook with Jupyter:
-
-jupyter notebook TelecomX_Churn_Analysis_Report.ipynb
-
-This will launch the notebook in your browser. From there, you can run the cells and walk through the full analysis.
-
-📌 Key Findings
+## 📌 Key Findings
 
 Here are a few of the main insights I discovered:
 	•	Customers with shorter tenure are more likely to churn.
@@ -60,7 +30,7 @@ Here are a few of the main insights I discovered:
 	•	Subscribing to additional services (like online security and technical support) is associated with better customer retention.
 	•	Surprisingly, fiber optic customers showed higher churn rates—possibly pointing to issues with service quality or unmet expectations.
 
-💡 Recommendations
+## 💡 Recommendations
 
 Based on the analysis, here are some suggestions that could help reduce churn:
 	•	Introduce welcome programs focused on onboarding new customers.
